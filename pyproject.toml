@@ -6,8 +6,9 @@ authors = [
     {name = "Oksana Donchuk",email = "80112131+OksanaDonchuk@users.noreply.github.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.12"
+python = ">=3.12,<4.0"
 dependencies = [
+    "loguru (>=0.7.3,<0.8.0) ; python_version >= \"3.12\" and python_version < \"4.0\""
 ]
 
 
